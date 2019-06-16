@@ -119,10 +119,10 @@ header {
    
 }
 .section_img {
-    padding-left: 10px;
+    /* padding-right: 5px; */
     padding-top: 65px;
     margin: auto;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
 }
@@ -178,7 +178,7 @@ header {
      height: 400px;
  }
  .block {
-     width: 820px;
+     width: 900px;
      margin: auto;
  }
  .block_button {
@@ -212,6 +212,7 @@ header {
 .block_text {
     width: 350px;
     float: right;
+    padding-right: 30px;
     
 }
 .block_with_slider_h2 {
