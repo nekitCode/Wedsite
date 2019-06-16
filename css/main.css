@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-size: 14px;
+}
+.scene {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 200vh;
+}
+.img_bg {
+    background: url(../img/Layer_7.png) no-repeat center top / cover;
+    width: 100%;
+    height: 700px;
+}
+.img1 {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 110%;
+}
+header {
+    height: 100vh;
+}
+.logo {
+    text-align: center;
+    padding-top: 105px;
+}
+.logo_text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px;
+    color: #ffff;
+}
+.navbar {
+    text-align: center;
+    margin-top: 47px;
+}
+.navbar_text {
+    color: #ffff;
+    font-family: "Open Sans - Semibold",sans-serif;
+    display: inline-block;
+    padding-right: 38px;
+    text-transform: uppercase;
+}
+.title {
+    text-align: center;
+    margin-top: 79px;
+    color: #ffff;
+}
+.title h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+.title p {
+    margin-top: 43px;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn {
+    text-align: center;
+    margin-top: 101px;
+    cursor: pointer;
+}
+.btn_link {
+    text-decoration:none;   
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'PT Sans',sans-serif;
+    border-radius: 50px;
+    background-color: #50c3af; 
+    padding: 18px 45px 19px 50px;
+}
+.section {
+    background-color: #eaeaeb;
+    width: 100%;
+    height: 340px; 
+}
+.container {
+    margin: auto;
+}
+.icon {
+    padding-top: 60px;
+    text-align: center;
+    color: #384048;
+    font-family: "PT Sans";
+}
+.icon_item {
+    display: inline-block; 
+    padding: 0 45px 0 45px;
+}
+.icon_item_text {
+    margin-top: 35px;
+    font-family: 16px;
+}
+.liner {
+    margin-top: 20px;
+    background-color: #eaeaeb;
+    opacity: 0.1;
+    border: 2px solid;
+    
+}
+.icon_item_desc {
+    padding-top: 25px;
+    font-family: 14px;
+    width: 200px;
+}
+.section_inform {
+    background: #f5f5f5;
+    height: 650px;
+}
+.container {
+    width: 70%;
+   
+}
+.section_img {
+    padding-left: 10px;
+    padding-top: 65px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.section_foto {
+    width: 320px;
+    height: 250px;
+}
+.block_info {
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+.item_foto {
+    width: 320px;
+    display: inline-block;   
+}
+.item_text {
+    font-family: "PT Sans";
+    font-size: 23px;  
+    text-transform: uppercase;
+    color: #40474e;
+    font-weight: 700;  
+}
+.liner_foto {
+    width: 320px;
+    margin-top: 23px;
+    background-color: #293139;
+    opacity: 0.1;
+    border: 2px solid;
+}
+.item_desc {
+    padding-top: 31px;
+    color: #384048;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px; */
+}
+ .btn_read {
+     margin-top: 34px;
+     padding: 11px 17px 14px 19px;
+     color: #ffff;
+     background-color: #50c3af;
+     border-radius: 50px;
+     border:#50c3af;
+     cursor: pointer;
+ }   
+ .block_with_slider {
+     padding-top: 60px;
+     background-color: #eeeeef;
+     height: 400px;
+ }
+ .block {
+     width: 820px;
+     margin: auto;
+ }
+ .block_button {
+     position: absolute;
+ }
+.block_btn_1 {
+    border: 20px solid transparent ;	
+    border-right: 20px solid #7e747c;
+    position: relative;
+    bottom: 130px;
+    background-color: #eeeeef;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.block_btn_2 {
+    border: 20px solid transparent;	
+    border-left: 20px solid #7e747c;
+    position: relative;
+    bottom: 130px;
+    background-color: #eeeeef;
+    cursor: pointer;
+    opacity: 0.3;
+    
+}
+.block_btn_1:focus {
+    outline: none;     /*убрал контур при нажадите на кнопку*/ 
+}
+.block_btn_2:focus {
+    outline: none;     
+}
+.block_text {
+    width: 350px;
+    float: right;
+    
+}
+.block_with_slider_h2 {
+    color: #293139;
+    font-family: "PT Sans";
+    font-size: 23px;
+}
+.block_with_slider_liner {
+    width: 330px;
+    margin-top: 23px;
+    background-color: #eaeaeb;
+    opacity: 0.1;
+    border: 2px solid;
+}
+.block_with_slider_p {
+    width: 347px;
+    margin-top: 32px;
+    color: #384048;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+.block_with_slider_btn {
+    margin-top: 29px;
+    padding: 11px 17px 14px 19px;
+    font-family: "PT Sans";
+    font-size: 14px;
+    color: #ffff;
+    background-color: #d2d5da;
+    border-radius: 50px;
+    border:1px solid #d2d5da;
+    cursor: pointer;
+}
