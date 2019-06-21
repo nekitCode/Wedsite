@@ -34,7 +34,7 @@ header {
 }
 .logo_text {
     font-family: 'Dancing Script', cursive;
-    font-size: 62px;
+    font-size: 80px;
     color: #ffff;
 }
 .navbar {
@@ -45,16 +45,16 @@ header {
     color: #ffff;
     font-family: "Open Sans - Semibold",sans-serif;
     display: inline-block;
-    padding-right: 38px;
+    padding-right: 50px;
     text-transform: uppercase;
 }
 .title {
     text-align: center;
-    margin-top: 79px;
+    margin-top: 69px;
     color: #ffff;
 }
 .title h1 {
-    font-size: 52px;
+    font-size: 72px;
     text-transform: uppercase;
 }
 .title p {
@@ -246,3 +246,30 @@ header {
     border:1px solid #d2d5da;
     cursor: pointer;
 }
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px){
+    .img_bg {
+        width: 44%;
+    }
+    .logo {
+        margin-top: -70px;
+    }
+    .logo_text {
+        padding-top: 100px;
+        font-size: 80px;
+    }
+    .navbar {
+        display: none;
+    }
+    .title h1 {
+        margin-top: -20px;
+        font-size: 40px;
+    }
+    .title p {
+        
+    }
+}
+
+        
