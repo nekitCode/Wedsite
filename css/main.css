@@ -251,7 +251,11 @@ header {
 and (min-device-width : 320px)
 and (max-device-width : 568px){
     .img_bg {
-        width: 44%;
+        width: 44.5%;
+        height: 500px;
+    }
+    .container {
+        padding-right: 50px;
     }
     .logo {
         margin-top: -70px;
@@ -270,6 +274,96 @@ and (max-device-width : 568px){
     .title p {
         
     }
+    .section {
+        height: 800px;
+        width: 100%; 
+    }
+    .icon {
+        
+    }
+    .icon_item {
+        width: 180px;
+        margin-top: 40px;
+    }
+    .section_inform {
+        height: 1120px;
+    }
+    .section_img {
+        text-align: center;
+        display: block;
+    } 
+    .section_foto {
+        width: 250px;
+        height: 200px;
+        padding-top: 20px;
+    }
+    .item_foto {
+        text-align: center;
+        width: 300px;
+    }
+    .liner_foto {
+        width: 230px;
+        margin-left: 20px;
+    }
+    .block_info {
+        display: block;
+        margin-left: -10px;
+    }
+    .item_foto {
+        display: block;
+        padding-bottom: 50px;
+    }
+    .block_with_slider {
+        text-align: center;
+        height: 680px;        
+    }
+    #block_with_slider_img {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        right: 30px;    
+    }
+    .block_btn_1 {
+        width: 10px;    
+        height: 10px;
+        position: relative;
+        right: 30px; 
+    }
+    .block_btn_2 {
+        width: 10px;    
+        height: 10px;
+        position: relative;
+        right: 30px;
+    }
+    .block {
+        position: absolute;
+    }
+    .block_text {
+        width: 325px;
+        position: relative;
+        top: 290px;
+        right: 550px;
+    }
+    .block_with_slider_h2 {
+        position: relative;
+        right: 15px;
+    }
+    .block_with_slider_liner {
+        width: 234px;
+        position: relative;
+        left: 30px;
+    }
+    .block_with_slider_p {
+        width: 295px;
+        position: relative;
+        right: 5px;
+    }
+    .block_with_slider_btn {
+        position: relative;
+        right: 15px;
+    }
+
+    
 }
 
         
